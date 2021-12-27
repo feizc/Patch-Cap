@@ -1,2 +1,5 @@
 # Patch-IC
-A image path-based Transformer for image captioning
+A image patch-based Transformer for image captioning
+
+(224, 224) visual transformer for feature extraction 
+
