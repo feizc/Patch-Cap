@@ -299,7 +299,7 @@ class ImageExtractor:
             return (image[:3, :, :] - mean[:, None, None]) / std[:, None, None]
         elif image.ndim == 2: 
             image = np.expand_dims(image, 0).repeat(3, axis=0)
-            (image.repeat(3,1,1) - mean[:, None, None]) / std[:, None, None]
+            return (image - mean[:, None, None]) / std[:, None, None]
         else:
             return (image - mean) / std 
         
