@@ -1,5 +1,6 @@
-# Patch-Cap
-A image patch-based Transformer for image captioning
+# Transformer-Image-Caption
+
+Transformer and its advanced variants for image captioning. 
 
 (224, 224) visual transformer for feature extraction 
 
